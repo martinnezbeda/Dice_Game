@@ -1,0 +1,123 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Cela stranka */
+
+.wholePage {
+    background: linear-gradient(rgba(51, 68, 67,0.2),rgba(52, 101, 109,0.8));
+    height: 100vh;
+}
+
+/* playground */
+.playground {
+    width: 80%;
+    height: 80%;
+    background: rgb(255, 251, 223);
+    position: absolute;
+    top:10%;
+    left:10%;
+}
+
+/* Total score -spoločná pre obidvoch*/
+
+.totalScore {
+    font-size: 30px;
+    color: rgb(51, 68, 67);
+    font-weight: 700;
+}
+
+.totalScore p:nth-of-type(2) {
+    font-size: 40px;
+    text-align: center;
+}
+
+.totalScore0 {
+    position: absolute;
+    top: 15%;
+    left:10%;
+}
+
+.totalScore1 {
+    position: absolute;
+    top: 15%;
+    right:10%;
+}
+
+/* current score */
+
+.currentScore {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(rgba(51, 68, 67,0.2),rgba(52, 101, 109,0.8));
+}
+
+.currentScore p {
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.currentScore p:nth-child(2) {
+    font-size: 40px;
+}
+
+.currentScore0 {
+    position: absolute;
+    top:40%;
+    left:11%;
+}
+
+.currentScore1 {
+    position: absolute;
+    top:40%;
+    right:11%;
+}
+
+/* middletext - buttons */
+
+.middleText {
+    position: absolute;
+    top: 75%;
+    left: 42%;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.btn {
+    border: 2px solid rgb(247, 123, 101);
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #ECCE6D;
+}
+
+.btn:hover {
+    border: 2px solid #ECCE6D;
+    background-color: rgb(247, 123, 101);
+}
+
+/* dice */
+
+.dice {
+    position: absolute;
+    top:33%;
+    left:44.2%;
+
+}
+
+/* active player */
+
+.active {
+    border: 2px solid rgb(247, 123, 101);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(247, 123, 101);
+}
